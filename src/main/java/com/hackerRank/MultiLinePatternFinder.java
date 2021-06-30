@@ -1,9 +1,9 @@
-package com.hackerrRank;
+package com.hackerRank;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class MultiLinePatterFinder {
+public class MultiLinePatternFinder {
     private static String findPatternInArray(List<String> heap, List<String> pattern) {
         String result = "opaPizdec";
         int position;
@@ -56,3 +56,4 @@ public class MultiLinePatterFinder {
         System.out.println(findPatternInArray(stringsOfNumbersHeap, stringsOfNumbersPattern));
     }
 }
+
